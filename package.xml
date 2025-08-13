@@ -7,7 +7,7 @@
   
 	<description> ROS2 package to perform 2D mapping and robot localization using LiDAR with slam_toolbox </description>
   
-	<maintainer email="yashikasharma0301@gmail.com">yashika-arz-i007</maintainer>
+	<maintainer email="yashikasharma0301@gmail.com" />
   
 	<license>Apache-2.0</license>
   
