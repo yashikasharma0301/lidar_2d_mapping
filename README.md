@@ -1,6 +1,6 @@
 # Simultaneous Mapping And Localization using 2D LiDAR in ROS2 
 
-This project demonstrates 2D mapping and robot localization using LiDAR with slam_toolbox in ROS 2. The package enables autonomous mapping of environments and subsequent robot localization within those maps using a differential drive robot in Gazebo simulation. Check out the 2d mapping and localization [here]().
+This project demonstrates 2D mapping and robot localization using LiDAR with slam_toolbox in ROS 2. The package enables autonomous mapping of environments and subsequent robot localization within those maps using a differential drive robot in Gazebo simulation. Check out the 2d mapping and localization [here](https://youtu.be/uUfAPKa34kQ?si=_G-T13XOkXAiKzrS).
 
 ## System Requirements
 
