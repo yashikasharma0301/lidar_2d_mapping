@@ -52,7 +52,7 @@ ros2 launch lidar-2d-mapping gazebo_spawn.launch.py
 ```
 
 2. **Start SLAM Mapping**
-In a new terminal:
+- In a new terminal:
 ```bash
 cd my_ws
 source install/setup.bash
