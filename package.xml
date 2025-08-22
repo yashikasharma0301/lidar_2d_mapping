@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   
-	<name>lidar-2d-mapping</name>
+	<name>lidar_2d_mapping</name>
 	<version>0.0.0</version>
   
 	<description> ROS2 package to perform 2D mapping and robot localization using LiDAR with slam_toolbox </description>
