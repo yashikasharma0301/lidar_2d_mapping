@@ -16,7 +16,7 @@ slam_toolbox:
 
     # if you'd like to start localizing on bringup in a map and pose
     
-    map_file_name: /home/yashika-arz-i007/my_ws/src/lidar-2d-mapping/maps/map_serialize
+    map_file_name: /home/yashika-arz-i007/my_ws/src/lidar_2d_mapping/maps/map_serialize
     #enter name of your map location here
 
     map_start_pose: [0.0, 0.0, 0.0]
