@@ -48,7 +48,7 @@ source install/setup.bash
 
 1. **Launch Robot with LiDAR in Gazebo**
 ```bash
-ros2 launch lidar-2d-mapping gazebo_spawn.launch.py
+ros2 launch lidar_2d_mapping gazebo_spawn.launch.py
 ```
 
 2. **Start SLAM Mapping**
@@ -56,7 +56,7 @@ ros2 launch lidar-2d-mapping gazebo_spawn.launch.py
 ```bash
 cd my_ws
 source install/setup.bash
-ros2 launch lidar-2d-mapping slam_mapping.launch.py
+ros2 launch lidar_2d_mapping slam_mapping.launch.py
 ```
 - Wait for a minute and let it load
 
