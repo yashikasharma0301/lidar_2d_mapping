@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    this_pkg = 'lidar-2d-mapping'
+    this_pkg = 'lidar_2d_mapping'
     world_file_name = 'my_world.sdf'
     xacro_file_name = 'myrobot.xacro'
 
@@ -49,7 +49,7 @@ def generate_launch_description():
     )
 
     bridge_params = os.path.join(
-        get_package_share_directory('lidar-2d-mapping'),
+        get_package_share_directory('lidar_2d_mapping'),
         'params',
         'bridge_params.yaml'
     )
