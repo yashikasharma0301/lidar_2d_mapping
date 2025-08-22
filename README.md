@@ -28,7 +28,7 @@ sudo apt install ros-jazzy-robot-state-publisher \
 1. **Create Workspace and Clone Repository**
 ```bash
 mkdir -p my_ws/src && cd my_ws/src
-git clone https://github.com/yashikasharma0301/lidar-2d-mapping.git
+git clone https://github.com/yashikasharma0301/lidar_2d_mapping.git
 ```
 
 2. **Build the Workspace**
@@ -74,7 +74,7 @@ ros2 launch lidar-2d-mapping slam_mapping.launch.py
 4. **Save the Map**
 - In RViz's "SlamToolboxPlugin" panel, enter the location where you want to save the map infront of the *Serialize Map* button :
   ```
-  /home/YOUR_USERNAME/my_ws/src/lidar-2d-mapping/maps/map_serialize
+  /home/YOUR_USERNAME/my_ws/src/lidar_2d_mapping/maps/map_serialize
   ```
   Replace `YOUR_USERNAME` with your actual username
 - Click on *Serialize Map* to save the generated map
@@ -87,7 +87,7 @@ ros2 launch lidar-2d-mapping slam_mapping.launch.py
 
 1. **Configure Localization Parameters**
 ```bash
-gedit ~/my_ws/src/lidar-2d-mapping/params/mapper_params_localization.yaml
+gedit ~/my_ws/src/lidar_2d_mapping/params/mapper_params_localization.yaml
 ```
 <img width="902" height="131" alt="image" src="https://github.com/user-attachments/assets/13b75bc8-65f0-47f9-8b28-1a52ca160897" />
 
@@ -103,13 +103,13 @@ gedit ~/my_ws/src/lidar-2d-mapping/params/mapper_params_localization.yaml
 cd my_ws
 colcon build
 source install/setup.bash
-ros2 launch lidar-2d-mapping gazebo_spawn.launch.py
+ros2 launch lidar_2d_mapping gazebo_spawn.launch.py
 ```
 - In another terminal:
 ```bash
 cd my_ws
 source install/setup.bash
-ros2 launch lidar-2d-mapping slam_localization.launch.py
+ros2 launch lidar_2d_mapping slam_localization.launch.py
 ```
 
 3. **Test Localization**
