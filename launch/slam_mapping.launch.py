@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     slam_pkg = get_package_share_directory('slam_toolbox')
-    this_pkg = get_package_share_directory('lidar-2d-mapping')
+    this_pkg = get_package_share_directory('lidar_2d_mapping')
 
     mapping_params = os.path.join(this_pkg, 'params', 'mapper_params_online_async.yaml')
 
