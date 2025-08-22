@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="tortoisebot">
 
-   <xacro:include filename="$(find lidar-2d-mapping)/urdf/myrobot.gazebo" />
+   <xacro:include filename="$(find lidar_2d_mapping)/urdf/myrobot.gazebo" />
    
    <link name="base_link">
       <visual>
@@ -158,7 +158,7 @@
       <visual>
          <origin xyz="0 0 0" rpy="0 0 0" />
          <geometry>
-            <mesh filename="file://$(find lidar-2d-mapping)/meshes/lidar.dae" />
+            <mesh filename="file://$(find lidar_2d_mapping)/meshes/lidar.dae" />
          </geometry>
       </visual>
       <collision>
